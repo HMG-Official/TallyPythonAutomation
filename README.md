@@ -14,7 +14,6 @@ This script automates the following sequence of actions in TallyPrime:
     Navigates to Balance Sheet: Accesses the Balance Sheet report from the Gateway of Tally.
     Initiates Export: Triggers the export functionality using Ctrl + E.
     Configures Export: Enters the export configuration screen by pressing 'C'.
-    Sets Export Path: Navigates to the "Output File Path" field, clears any default path, and inputs the desired export directory (D:\tally\data).
     Sets Dynamic Filename: Navigates to the "Output File Name" field and enters a dynamically generated filename (e.g., balancesheet_YYYY_MM_DD_HH_MM_SS.xml) to avoid overwriting previous exports.
     Confirms Export: Finalizes the export process by pressing Ctrl + A twice.
     Closes Explorer Window: Automatically closes the Windows Explorer window that often pops up after the export is complete.
