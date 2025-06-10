@@ -27,11 +27,10 @@ Before running this script, ensure you have the following installed:
     pip: Python's package installer (usually comes with Python).
     TallyPrime: Installed at D:\TallyPrime\tally.exe.
     Tally Data Folder: A Tally data folder (e.g., D:\tally\data\010001) with at least one company, which can be opened in Education Mode.
-    Export Destination Folder: The D:\tally\data folder should exist for exports.
 
 Installation
 
-    Clone this repository (or download the tal.py script).
+    Clone this repository (or download the tallyauto.py script).
     Install required Python libraries using pip:
     Bash
 
@@ -45,13 +44,12 @@ Usage
         Open tal.py in a text editor.
         Verify or update tally_exe_path (e.g., r"D:\TallyPrime\tally.exe").
         Verify or update tally_data_folder_path (e.g., r"D:\tally\data\010001").
-        Verify or update export_output_folder (e.g., r"D:\tally\data").
 
     Run the script:
     Open your command prompt or terminal, navigate to the directory where you saved tal.py, and run:
     Bash
 
-    python tal.py
+    python tallyauto.py
 
 CRITICAL USAGE NOTES FOR RPA STUDENTS:
 
