@@ -41,12 +41,12 @@ Installation
 Usage
 
     Update Paths:
-        Open tal.py in a text editor.
+        Open tallyauto.py in a text editor.
         Verify or update tally_exe_path (e.g., r"D:\TallyPrime\tally.exe").
         Verify or update tally_data_folder_path (e.g., r"D:\tally\data\010001").
 
     Run the script:
-    Open your command prompt or terminal, navigate to the directory where you saved tal.py, and run:
+    Open your command prompt or terminal, navigate to the directory where you saved tallyauto.py, and run:
     Bash
 
     python tallyauto.py
